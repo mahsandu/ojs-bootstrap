@@ -29,7 +29,7 @@
 installed = On
 
 ; The canonical URL to the OJS installation (excluding the trailing slash)
-base_url = "https://journals.juniv.edu"
+base_url = "http://journals.juniv.edu/demo"
 
 ; Session cookie name
 session_cookie_name = OJSSID
@@ -139,9 +139,9 @@ sitewide_privacy_statement = Off
 
 driver = mysqli
 host = localhost
-username = juojs_ojs4
-password = 3p793S)!1A
-name = juojs_ojs4
+username = juojs_ojs567
+password = 3]2p2vSH9)
+name = juojs_ojs567
 
 ; Set the non-standard port and/or socket, if used
 ; port = 3306

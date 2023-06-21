@@ -3,7 +3,7 @@
   array (
     0 => 
     array (
-      'className' => 'PKP\\task\\ReviewReminder',
+      'className' => 'APP\\plugins\\importexport\\doaj\\DOAJInfoSender',
       'frequency' => 
       array (
         'hour' => 24,
@@ -14,10 +14,10 @@
     ),
     1 => 
     array (
-      'className' => 'PKP\\task\\StatisticsReport',
+      'className' => 'PKP\\task\\ReviewReminder',
       'frequency' => 
       array (
-        'day' => '1',
+        'hour' => 24,
       ),
       'args' => 
       array (
@@ -25,7 +25,7 @@
     ),
     2 => 
     array (
-      'className' => 'APP\\tasks\\SubscriptionExpiryReminder',
+      'className' => 'PKP\\task\\StatisticsReport',
       'frequency' => 
       array (
         'day' => '1',
@@ -36,6 +36,17 @@
     ),
     3 => 
     array (
+      'className' => 'APP\\tasks\\SubscriptionExpiryReminder',
+      'frequency' => 
+      array (
+        'day' => '1',
+      ),
+      'args' => 
+      array (
+      ),
+    ),
+    4 => 
+    array (
       'className' => 'PKP\\task\\DepositDois',
       'frequency' => 
       array (
@@ -45,7 +56,7 @@
       array (
       ),
     ),
-    4 => 
+    5 => 
     array (
       'className' => 'PKP\\task\\RemoveUnvalidatedExpiredUsers',
       'frequency' => 
@@ -56,7 +67,7 @@
       array (
       ),
     ),
-    5 => 
+    6 => 
     array (
       'className' => 'PKP\\task\\EditorialReminders',
       'frequency' => 
@@ -67,7 +78,7 @@
       array (
       ),
     ),
-    6 => 
+    7 => 
     array (
       'className' => 'PKP\\task\\UpdateIPGeoDB',
       'frequency' => 
@@ -78,7 +89,7 @@
       array (
       ),
     ),
-    7 => 
+    8 => 
     array (
       'className' => 'APP\\tasks\\UsageStatsLoader',
       'frequency' => 
@@ -89,7 +100,7 @@
       array (
       ),
     ),
-    8 => 
+    9 => 
     array (
       'className' => 'PKP\\task\\ProcessQueueJobs',
       'frequency' => 
@@ -100,7 +111,7 @@
       array (
       ),
     ),
-    9 => 
+    10 => 
     array (
       'className' => 'PKP\\task\\RemoveFailedJobs',
       'frequency' => 
@@ -111,7 +122,7 @@
       array (
       ),
     ),
-    10 => 
+    11 => 
     array (
       'className' => 'APP\\tasks\\OpenAccessNotification',
       'frequency' => 

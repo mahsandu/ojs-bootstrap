@@ -1,0 +1,9 @@
+<?php $exp = 1718935732; $val = array (
+  'application' => 'oldGregg',
+  'class' => 'OldGreggThemePlugin',
+  'type' => 'plugins.themes',
+  'release' => '2.2.0.0',
+  'date' => '2021-04-25',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);
